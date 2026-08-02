@@ -1,0 +1,13 @@
+[package]
+name = "multithreaded-http-server"
+version = "0.1.0"
+edition = "2021"
+description = "A multi-threaded HTTP/1.1 server built on raw TCP sockets and a custom thread pool"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+thiserror = "2"
+
+[dev-dependencies]
+tempfile = "3"
